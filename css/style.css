@@ -7,8 +7,7 @@ background-color: black;
 }
 
 .navbar{
-  background-color: white;
-  align-items:flex-end;
+align-items:flex-end;
 }
 
 h1{
@@ -106,13 +105,33 @@ footer{
 .call{
   color: #110b0a;
   background-color: white;
-  padding: 0.5%;
+  text-align: center;
+  
 }
 .slide-text{
   color: #110b0a;
   text-align:right;
  
 }
+
+.call-btn{
+ margin: 1px 3px 1px 0;
+ justify-items:center;
+ 
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+.nav-text{
+  font-size: bold;
+  font-style: italic;
+
+
+}
+
+
 
 
 
