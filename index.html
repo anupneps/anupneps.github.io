@@ -1,41 +1,221 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Me and Myself</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The ODD Bakery</title>
+
+  <script src="https://kit.fontawesome.com/6629a04842.js" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
-<sty></sty>
 
 <body>
-<table cellspacing="20">
-  <tr>
-    <td><img src="anup.jpg", alt = "Anup DP", style = "width:200px; height:250px" </img> </td>
-    <td><h1>ANUP NEPAL</h1><P> <i> Currently Studying <b> Cybersecurity </b> at <strong><a href="https://www.laurea.fi/en/">Laurea AMK </a> </strong>. </i> </P>
-    <p> Hello, This is Anup, originally from Nepal. Have been living(working+studying) in Finland for last 12 years. All these years have been a life learning experiences. 
-    Out of many experiences I had, IT is something which is due and here I am slowly and gradually starting to get into the world of web and information technology. </p>
-    </td>
-  </tr>
-</table>
 
-<hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Bachelors of Business Adminstratoin, Karelia Univeristy of Applied Sciences, Joensuu, Finland. 2014.</li>
-  </ul>
+  <!--Navigation-->
 
-  <h3>My Hobbies</h3>
-    <ol>
-      <li>Passionate follower of cricket</li>
-      <li>Cycling in forest trails</li>
-      <li>Mushroom picking 
-      <li>Travel and lesure </li>
-      <ul>
-        <li>Explore new placew</li>
-        <li>Experience the culture and way of life </li>
-      </ul>
-    </ol>
- 
+  <section id="header">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.JPG" alt="" width="100" height="100"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#products">Our products</a>
+            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#">Order</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--Carousel-->
+
+  <section id="carousel_images">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/cupcake1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="slide-text">Visit our Instagram & Facebook page <br> for more pictures, <br> products and promotions. </h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/cake.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="slide-text">Visit our Instagram & Facebook page <br> for more pictures, <br> products and promotions. </h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/brownie.jpg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="slide-text">Visit our Instagram & Facebook page <br> for more pictures, <br> products and promotions. </h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </section>
+
+  <!--products-->
+
+  <section id="products">
+    <div class="container-fluid full-width">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <i class="icon fas fa-bread-slice fa-4x"></i>
+          <h3>Cupcakes</h3>
+          <p class="feature-text">Variety of cupcakes available.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icon fas fa-cookie fa-4x"></i>
+          <h3>Brownies</h3>
+          <p class="feature-text">Enjoy our delicous brownies.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="icon fas fa-birthday-cake fa-4x"></i>
+          <h3>Cake</h3>
+          <p class="feature-text">Celebrate your festivals with sweet.</p>
+        </div>
+      </div>
+      <div class=" about">
+        <h2>"Leipomo-konditoria Uudellamaalla. Artesaanileivontaa. Käsin tehty alusta loppuun. Suosimme satokauden
+          tuotteita. Vaikutteita amerikkalaisesta, aasialaisesta ja englantilaisesta leivonnasta. Tuotteitamme myynnissä
+          K-Supermarket Vuosaaressa."</h2>
+      </div>
+    </div>
+  </section>
+
+<!--Pricing-->
+  <section id = "pricing">
+    <h2>Our delicious desserts</h2>
+    <p>A treat box prepared for you.</p>
+
+    <div class="row ">
+      
+    <div class="price-col card col-lg-4 col-md-6" >
+      <div class="card-header">  
+        <h3>Bakesale</h3>
+      </div>
+      <div class="card-body">
+        <h2>Treat-Box <br> 25€ </h2>
+        <p>1x Apple pie (mini)</p>
+        <p>2x Cookie sandwich</p>
+        <p>1x Focaccia(mini)</p>
+        <p>3x Pandan coconut cupcakes(mini)</p>
+        <p>1x slice of carrot cake</p>
+        <button type="button" class="btn btn-block btn-lg btn-outline-dark"> <i class="fab fa-whatsapp"></i> Order</button>
+      
+      </div>   
+    </div>
+
+    <div class="price-col card col-lg-4 col-md-6">
+      <div class="card-header">
+        <h3>Pop-up myynti</h3>  
+      </div>
+      <div class="card-body">
+        <h2>Herkkuboksi <br> 25€ </h2>
+        <p>1x Bombolini munkki (Kinuski & vaniljakreemi täytteellä) (L)</p>
+        <p>2x Cookie sandwich (Funfetti & Nutella) (L, paitsi Nutella sis. laktoosia ja PÄHKINÄÄ)</p>
+        <p>1x Focaccia (mini) (Basilika, mozzarella & tomaatti)(L)</p>
+        <p>1x Omenapiirakka (mini) (L)</p>
+        <p>3x Pandan-kookos kuppikakku (mini)(L)
+        </p>
+        <p>1x Porkkanakakkupala (L, sis. PÄHKINÄÄ)</p>
+        <button type="button" class="btn btn-block btn-lg btn-outline-dark"> <i class="fab fa-whatsapp"></i> Order</button>
+
+      </div>   
+    </div>
+
+    <div class="price-col card col-lg-4 col-md-12">
+      <div class="card-header"> 
+        <h3>Other Bakery items</h3> 
+      </div>
+      <div class="card-body">
+        <h2> Price list </h2>
+        <p>Cupcake 20€/box</p>
+        <p>Brownies 10€ </p>
+        <p>Breads  10€ </p>
+        <p>For customize bakery items - contact us. </p>
+        <button type="button" class="btn btn-block btn-lg btn-outline-dark"><i class="fab fa-whatsapp"></i> Order</button>
+          
+      </div>   
+    </div>
+  </div>
+  </section>
+
+<!--About Us-->
+
+  <section id="about-us">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-6">
+          <h1>About Us</h1>
+          <p class="feature-text" > A passonate team of bakers in Espoo. Kaikki tuotteemme ovat sianlihattomia eikä niissä ole käytetty gelatiinia.
+            Tavaramerkein ja tekijänoikeuslaein suojattuja koristeita tai tuotteita, joista tämä aihe selkeästi ilmenee ja rikkoo tekijänoikeus- tai tavaramerkkilakeja (kuten Disney-hahmot, Pipsa possu yms.) ei voida valmistaa. Tällaiset teemat voidaan toteuttaa valmiilla ostetuilla koristeilla ja muutoin esimerkiksi mukaillen aiheen väriteemaa.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/team.JPG" alt="team" width="600px" height="400px" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="call text-center">
+    <h2>Call: <button type="button" class=" call-btn btn btn-outline-dark"><i class="fab fa-whatsapp"></i> +358 445198713</button>  
+      <a href="tel: +358 405190489">
+        <button type="button" class="call-btn btn btn-outline-dark"><i class="fab fa-whatsapp"></i> +358 405190489</button>  
+    </h2></a>
+  </div>
+
+  <!--Footer-->
+  <footer id="footer">
+    <footer class="footer mt-auto py-3">
+      <div class="container text-center">
+        <a href="https://www.facebook.com/ourdeliciousdesserts"> <i class="fab fa-facebook-square fontawe"></i></a>
+        <a href="https://www.instagram.com/theoddbakery/"> <i class="fab fa-instagram-square fontawe"></i></a>
+        <a href="#"> <i class="fas fa-envelope fontawe"></i> </a>
+        
+        <span class="text-muted">
+          <p>The ODD Bakery <br>Malminmäentie 1 D8, 02280<br> Espoo, Finland <br> © Copyright 2021 </p>
+        </span> 
+      </div>  
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 

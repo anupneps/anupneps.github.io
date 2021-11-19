@@ -1,0 +1,121 @@
+body{
+background-color: black;
+
+}
+.navbar-nav{
+ margin-left: auto; 
+}
+
+.navbar{
+  background-color: white;
+  align-items:flex-end;
+}
+
+h1{
+  text-align: center;
+  font-family: fantasy;
+  font-size:3 rem;
+  color: black;
+}
+
+footer{
+  height: fit-content;
+ background-color: wh;
+ margin-top: 5px;
+ }
+
+.nav-link{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#products {
+  padding: 5% 0 5% 0;
+  background-color:rgb(246, 112, 134);
+    
+}
+
+#about-us{
+  padding: 5% 0 5% 0;
+  background-color:rgb(246, 112, 134);  
+}
+
+.icon{
+  color: #110b0a;
+  margin-bottom: 5%;
+  }
+
+.feature-text{
+    color: #ffffff;
+    padding: 5%;
+    padding-top: 0;
+  }
+
+.about{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 1%;
+    width: auto;
+    
+  }
+
+.fontawe{
+  font-size: 3rem;
+  margin: 1%;
+}
+
+.fab.fa-instagram-square{
+    
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+.fab.fa-facebook-square {
+    
+    color: #3b5998;
+    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  }  
+  
+#footer{
+  font-size: 1.2rem;
+  padding: 0;
+  
+}
+
+.carousel-item{
+  padding: 0 10% 0 10% ;
+  height: 60% ;
+}
+
+#pricing{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+
+.fab.fa-whatsapp{
+  color:#fff;
+  background:
+   linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+   radial-gradient(#25d366 60%,transparent 0);
+}
+.call{
+  color: #110b0a;
+  background-color: white;
+  padding: 0.5%;
+}
+.slide-text{
+  color: #110b0a;
+  text-align:right;
+ 
+}
+
+
+
+
+
+
