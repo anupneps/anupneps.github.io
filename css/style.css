@@ -1,5 +1,5 @@
-body{
-background-color: black;
+#header{
+background-color: #110b0a;
 
 }
 .navbar-nav{
@@ -82,26 +82,22 @@ footer{
 #footer{
   font-size: 1.2rem;
   padding: 0;
+  background-color: #110b0a;
   
 }
 
 .carousel-item{
   padding: 0 10% 0 10% ;
-  height: 60%;
-  
+  height: 60%;  
 }
-
-@media (max-width:812px) {
-  .carousel-item{
-    padding: 0 0 0 0 ;
-    height: 100%;
-    
-  }
 
 #pricing{
   text-align: center;
-  background-color: #ffffff;
+  
   padding: 80px;
+}
+.pricehead{
+  background-color: #fff;
 }
 
 
@@ -111,42 +107,36 @@ footer{
    linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
    radial-gradient(#25d366 60%,transparent 0);
 }
+
 .call{
   color: #110b0a;
-  background-color: white;
-  text-align: center;
-  
+  text-align: center; 
 }
+
 .slide-text{
   color: #110b0a;
-  text-align:right;
- 
+  text-align:right; 
 }
 
 .call-btn{
  margin: 1px 3px 1px 0;
- justify-items:center;
- 
+ justify-items:center; 
 }
 
 h2{
   font-size: 1.5rem;
-
 }
-
 
 .nav-text{
   font-size: bold;
   font-style: italic;
   font: 1rem;
-  text-align: center;
-  
+  text-align: center;  
 }
 
-
-
-
-
-
-
-
+@media (max-width:812px) {
+  .carousel-item{
+    padding: 0 0 0 0 ;
+    height: 100%;  
+}
+}
