@@ -1,142 +1,143 @@
-#header{
-background-color: #110b0a;
-
-}
-.navbar-nav{
- margin-left: auto; 
+#navbar-wrapper {
+    background-color: #110b0a;
 }
 
-.navbar{
-align-items:flex-end;
+.navbar-nav {
+    margin-left: auto;
 }
 
-h1{
-  text-align: center;
-  font-family: fantasy;
-  font-size:3 rem;
-  color: black;
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+    font-size: 29px;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Pro';
 }
 
-footer{
-  height: fit-content;
- background-color: wh;
- margin-top: 5px;
- }
+span.brand-name-heart {
+    font-size: 9px;
+    color: #f67086;
+    margin-left: 1.5px;
+}
 
-.nav-link{
-  font-size: 1rem;
-  font-weight: bold;
+.navbar {
+    align-items: flex-end;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3rem;
+    color: black;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 #products {
-  padding: 5% 0 5% 0;
-  background-color:rgb(246, 112, 134);
-    
+    padding: 5% 0 5% 0;
+    background-color: rgb(246, 112, 134);
 }
 
-#about-us{
-  padding: 5% 0 5% 0;
-  background-color:rgb(246, 112, 134);  
+#about-us {
+    padding: 5% 0 5% 0;
+    background-color: rgb(246, 112, 134);
 }
 
-.icon{
-  color: #110b0a;
-  margin-bottom: 5%;
-  padding: 1% 1% 1% 1%;
-  }
+.icon {
+    color: #110b0a;
+    margin-bottom: 5%;
+    padding: 4% 1% 1% 1%;
+}
 
-.feature-text{
+.feature-text {
     color: #ffffff;
     padding: 5%;
-    padding-top: 0;
-  }
+    padding-top: 5%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
 
-.about{
+.about {
     font-weight: bold;
     color: white;
     text-align: center;
     margin: 1%;
     width: auto;
-    
-  }
-
-.fontawe{
-  font-size: 3rem;
-  margin: 1%;
 }
 
-.fab.fa-instagram-square{
-    
+.fontawe {
+    margin: 1%;
+}
+
+.fab.fa-instagram-square {
     color: transparent;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
-  }
+}
+
 .fab.fa-facebook-square {
-    
     color: #3b5998;
-    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
-  }  
-  
-#footer{
-  font-size: 1.2rem;
-  padding: 0;
-  background-color: #110b0a;
-  
+    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93%);
 }
 
-.carousel-item{
-  padding: 0 10% 0 10% ;
-  height: 60%;  
+#footer {
+    font-size: 1.2rem;
+    padding: 0;
+    background-color: #110b0a;
 }
 
-#pricing{
-  text-align: center;
-  
-  padding: 80px;
-}
-.pricehead{
-  background-color: #fff;
+.carousel-item {
+    padding: 0 10% 0 10%;
+    height: 60%;
 }
 
-
-.fab.fa-whatsapp{
-  color:#fff;
-  background:
-   linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
-   radial-gradient(#25d366 60%,transparent 0);
+#pricing {
+    text-align: center;
+    padding: 80px;
 }
 
-.call{
-  color: #110b0a;
-  text-align: center; 
+.pricehead {
+    background-color: #fff;
 }
 
-.slide-text{
-  color: #110b0a;
-  text-align:right; 
+.fab.fa-whatsapp {
+    color: #fff;
+    background: linear-gradient(#25d366, #25d366) 14% 84%/16% 16% no-repeat, radial-gradient(#25d366 60%, transparent 0);
 }
 
-.call-btn{
- margin: 1px 3px 1px 0;
- justify-items:center; 
+.call {
+    color: #110b0a;
+    text-align: center;
 }
 
-h2{
-  font-size: 1.5rem;
+.slide-text {
+    color: #110b0a;
+    text-align: right;
 }
 
-.nav-text{
-  font-size: bold;
-  font-style: italic;
-  font: 1rem;
-  text-align: center;  
+.call-btn {
+    margin: 1px 3px 1px 0;
+    justify-items: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.nav-text {
+    font-weight: bold;
+    font-style: italic;
+    font: 1rem;
+    text-align: center;
 }
 
 @media (max-width:812px) {
-  .carousel-item{
-    padding: 0 0 0 0 ;
-    height: 100%;  
-}
+    .carousel-item {
+        padding: 0 0 0 0;
+        height: 100%;
+    }
 }

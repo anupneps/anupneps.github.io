@@ -2,215 +2,219 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The ODD Bakery</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The ODD Bakery</title>
 
-  <script src="https://kit.fontawesome.com/6629a04842.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6629a04842.js" crossorigin="anonymous"></script>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/style.css">
-  
-<link rel="icon" type="image/png" sizes="48x48" href="/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon.ico">
 
 
 </head>
 
 <body>
 
-  <!--Navigation-->
+    <!--Navigation-->
 
-  <section id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.JPG" alt="" width="100" height="100"> </a>
-          
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <section id="navbar-wrapper">
+        <h1 style="display: none;">&nbsp;</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <!-- <img src="images/logo.JPG" alt="" width="100" height="100"> -->
+                    O<span class="brand-name-heart">♥</span>D<span class="brand-name-heart">♥</span>D
+                </a>
+                <h6 style="display: none;">&nbsp;</h6>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#products">Our products</a>
-            <a class="nav-link" href="#pricing">Prices</a>
-            <a class="nav-link" href="#about-us">About Us</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  
 
-  <!--Carousel-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#products">Our products</a>
+                        <a class="nav-link" href="#pricing">Prices</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-  
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/cupcake1.jpg" class="d-block w-100" alt="..."> 
-        </div>
-        <div class="carousel-item">
-          <img src="images/cake.jpg" class="d-block w-100" alt="">  
-        </div>
-        <div class="carousel-item">
-          <img src="images/brownie.jpg" class="d-block w-100" alt="">             
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
+
+        <!--Carousel-->
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cupcake1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cake.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/brownie.jpg" class="d-block w-100" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
 
-    </div>
-  </section>
-
-  <!--products-->
-
-  <section id="products">
-    <div class="container-fluid full-width">
-      <div class=" about">
-        <h2>"Leipomo-konditoria Uudellamaalla. Artesaanileivontaa. Käsin tehty alusta loppuun. Suosimme satokauden
-          tuotteita. Vaikutteita amerikkalaisesta, aasialaisesta ja englantilaisesta leivonnasta. Tuotteitamme myynnissä
-          K-Supermarket Vuosaaressa." </h2>
-      </div>
-      <div class="row text-center">
-        <div class="col-lg-4">
-          <i class="icon fas fa-bread-slice fa-3x"></i>
-          <h3>Cupcakes</h3>
-          <p class="feature-text">Variety of cupcakes available.</p>
         </div>
+    </section>
 
-        <div class="col-lg-4">
-          <i class="icon fas fa-cookie fa-3x"></i>
-          <h3>Brownies</h3>
-          <p class="feature-text">Enjoy our delicous brownies.</p>
+    <!--products-->
+
+    <section id="products">
+        <div class="container-fluid full-width">
+            <div class=" about">
+                <h2>"A Bakery-confectionery in Uusimaa. An Artisan baking. Hand-made from start to finish. We prefer products that are freshly produced. Influences from American, Asian and English baking. <br> Our products are on sale at K-Supermarket in
+                    Vuosaari."
+                </h2>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4">
+                    <i class="icon fas fa-bread-slice fa-3x"></i>
+                    <h3>Cupcakes</h3>
+                    <p class="feature-text">Variety of cupcakes available.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <i class="icon fas fa-cookie fa-3x"></i>
+                    <h3>Brownies</h3>
+                    <p class="feature-text">Enjoy our delicous brownies.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <i class="icon fas fa-birthday-cake fa-3x"></i>
+                    <h3>Cake</h3>
+                    <p class="feature-text">Celebrate your festivals with delicacy.</p>
+                </div>
+            </div>
+            <h3 class="nav-text"> Visit our Instagram and Facebook pages for more pictures, prices and promotions.</h3>
         </div>
+    </section>
 
-        <div class="col-lg-4">
-          <i class="icon fas fa-birthday-cake fa-3x"></i>
-          <h3>Cake</h3>
-          <p class="feature-text">Celebrate your festivals with sweet.</p>
+    <!--Pricing-->
+    <section id="pricing">
+        <div class="pricehead text-center">
+            <h2>Our delicious desserts</h2>
+            <p>A treat box prepared for you.</p>
         </div>
-      </div>
-      <h3 class="nav-text"> Visit our Instagram and Facebook pages for more pictures, prices and promotions.</h3>
-    </div>
-  </section>
+        <div class="row ">
+            <div class="price-col card col-lg-4 col-md-6">
+                <div class="card-header">
+                    <h3>Bakesale</h3>
+                </div>
+                <div class="card-body">
+                    <h2>Treat-Box <br> 25€ </h2>
+                    <p>1x Apple pie (mini)</p>
+                    <p>2x Cookie sandwich</p>
+                    <p>1x Focaccia(mini)</p>
+                    <p>3x Pandan coconut cupcakes(mini)</p>
+                    <p>1x slice of carrot cake</p>
+                    <a href="https://wa.me/358445198713">
+                        <div class="btn btn-block btn-lg btn-outline-dark">
+                            <i class="fab fa-whatsapp"></i> Order </div>
+                    </a>
 
-<!--Pricing-->
-  <section id = "pricing">
-    <div class="pricehead text-center">
-    <h2>Our delicious desserts</h2>
-    <p>A treat box prepared for you.</p>
-  </div> 
-    <div class="row ">
-    <div class="price-col card col-lg-4 col-md-6" >
-      <div class="card-header">  
-        <h3>Bakesale</h3>
-      </div>
-      <div class="card-body">
-        <h2>Treat-Box <br> 25€ </h2>
-        <p>1x Apple pie (mini)</p>
-        <p>2x Cookie sandwich</p>
-        <p>1x Focaccia(mini)</p>
-        <p>3x Pandan coconut cupcakes(mini)</p>
-        <p>1x slice of carrot cake</p>
-        <a href="https://wa.me/358445198713"><button type="button" class="btn btn-block btn-lg btn-outline-dark" > <i class="fab fa-whatsapp"></i>  Order</button></a>
-      
-      </div>   
-    </div>
+                </div>
+            </div>
 
-    <div class="price-col card col-lg-4 col-md-6">
-      <div class="card-header">
-        <h3>Pop-up myynti</h3>  
-      </div>
-      <div class="card-body">
-        <h2>Herkkuboksi <br> 25€ </h2>
-        <p>1x Bombolini munkki (Kinuski & vaniljakreemi täytteellä) (L)</p>
-        <p>2x Cookie sandwich (Funfetti & Nutella) (L, paitsi Nutella sis. laktoosia ja PÄHKINÄÄ)</p>
-        <p>1x Focaccia (mini) (Basilika, mozzarella & tomaatti)(L)</p>
-        <p>1x Omenapiirakka (mini) (L)</p>
-        <p>3x Pandan-kookos kuppikakku (mini)(L)
-        </p>
-        <p>1x Porkkanakakkupala (L, sis. PÄHKINÄÄ)</p>
-        <a href="https://wa.me/358445198713"><button type="button" class="btn btn-block btn-lg btn-outline-dark" > <i class="fab fa-whatsapp"></i>  Order</button></a>
+            <div class="price-col card col-lg-4 col-md-6">
+                <div class="card-header">
+                    <h3>Pop-up myynti</h3>
+                </div>
+                <div class="card-body">
+                    <h2>Delicoius Box <br> 25€ </h2>
+                    <p>1x Bombolini munkki (Kinuski & vaniljakreemi täytteellä) (L)</p>
+                    <p>2x Cookie sandwich (Funfetti & Nutella) (L, paitsi Nutella sis. laktoosia ja PÄHKINÄÄ)</p>
+                    <p>1x Focaccia (mini) (Basilika, mozzarella & tomaatti)(L)</p>
+                    <p>1x Omenapiirakka (mini) (L)</p>
+                    <p>3x Pandan-kookos kuppikakku (mini)(L)
+                    </p>
+                    <p>1x Porkkanakakkupala (L, sis. PÄHKINÄÄ)</p>
+                    <a href="https://wa.me/358445198713">
+                        <div class="btn btn-block btn-lg btn-outline-dark"> <i class="fab fa-whatsapp"></i> Order</div>
+                    </a>
 
-      </div>   
-    </div>
+                </div>
+            </div>
 
-    <div class="price-col card col-lg-4 col-md-12">
-      <div class="card-header"> 
-        <h3>Other Bakery items</h3> 
-      </div>
-      <div class="card-body">
-        <h2> Price list </h2>
-        <p>Cupcake 20€/box</p>
-        <p>Brownies 10€ </p>
-        <p>Breads  10€ </p>
-        <p>For customize bakery items - contact us. </p>
-        <a href="https://wa.me/358445198713"><button type="button" class="btn btn-block btn-lg btn-outline-dark" > <i class="fab fa-whatsapp"></i>  Order</button></a>
-          
-      </div>   
-    </div>
-  </div>
-  </section>
+            <div class="price-col card col-lg-4 col-md-12">
+                <div class="card-header">
+                    <h3>Other Bakery items</h3>
+                </div>
+                <div class="card-body">
+                    <h2> Price list </h2>
+                    <p>Cupcake 20€/box</p>
+                    <p>Brownies 10€/box </p>
+                    <p>Breads 10€/3pac </p>
+                    <p>For customize bakery items - contact us. </p>
+                    <a href="https://wa.me/358445198713">
+                        <div class="btn btn-block btn-lg btn-outline-dark"> <i class="fab fa-whatsapp"></i> Order</div>
+                    </a>
 
-<!--About Us-->
-
-  <section id="about-us">
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col-lg-6">
-          <h1>About Us</h1>
-          <p class="feature-text" > A passonate team of bakers in Espoo. Kaikki tuotteemme ovat sianlihattomia eikä niissä ole käytetty gelatiinia.
-            Tavaramerkein ja tekijänoikeuslaein suojattuja koristeita tai tuotteita, joista tämä aihe selkeästi ilmenee ja rikkoo tekijänoikeus- tai tavaramerkkilakeja (kuten Disney-hahmot, Pipsa possu yms.) ei voida valmistaa. Tällaiset teemat voidaan toteuttaa valmiilla ostetuilla koristeilla ja muutoin esimerkiksi mukaillen aiheen väriteemaa.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6">
-          <img src="images/team.JPG" alt="team" class="d-block w-100" >
+    </section>
+
+    <!--About Us-->
+
+    <section id="about-us">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-lg-6">
+                    <h1>About Us</h1>
+                    <p class="feature-text"> A passonate team of bakers located in Espoo. All our products are pork-free and gelatin-free. Ornaments or products protected by trademarks and copyright laws which clearly express this subject and infringe copyright or trademark laws
+                        (such as Disney characters, Peppa pig, etc.) cannot be made. Such themes can be implemented with pre-purchased decorations and otherwise, for example, by adapting the color theme of the theme.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/team.JPG" alt="team" class="d-block w-100">
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <div class="call text-center">
+        <span>Call:</span>
+        <a href="tel:+358405190489">
+            <div class="call-btn btn btn-outline-dark"><i class="fas fa-phone-square-alt"></i> +358 405190489</div>
+        </a>
     </div>
-  </section>
 
-  <div class="call text-center">
-    <h2>Call:  
-      <a href="tel: +358 405190489">
-        <button type="button" class="call-btn btn btn-outline-dark"><i class="fas fa-phone-square-alt"></i> +358 405190489</button></h2></a>
-  </div>
+    <!--Footer-->
+    <div id="footer">
+        <footer class="footer mt-auto py-3">
+            <div class="container text-center">
+                <a href="https://www.facebook.com/ourdeliciousdesserts"> <i class="fab fa-facebook-square fa-2x fontawe"></i></a>
+                <a href="https://www.instagram.com/theoddbakery/"> <i class="fab fa-instagram-square fa-2x fontawe"></i></a>
+                <a href="mailto:anup.neps@gmail.com"> <i class="fas fa-envelope fontawe fa-2x "></i> </a>
 
-  <!--Footer-->
-  <footer id="footer">
-    <footer class="footer mt-auto py-3">
-      <div class="container text-center">
-        <a href="https://www.facebook.com/ourdeliciousdesserts"> <i class="fab fa-facebook-square fontawe"></i></a>
-        <a href="https://www.instagram.com/theoddbakery/"> <i class="fab fa-instagram-square fontawe"></i></a>
-        <a href="mailto:anup.neps@gmail.com"> <i class="fas fa-envelope fontawe"></i> </a>
-        
-        <span class="text-muted">
-          <p>The ODD Bakery <br>Malminmäentie 1 D8, 02280<br> Espoo, Finland <br> © Copyright 2021 </p>
-        </span> 
-      </div>  
-    </footer>
+                <div class="text-muted">
+                    <p>The ODD Bakery <br>Malminmäentie 1 D8, 02280<br> Espoo, Finland <br> © Copyright 2021 </p>
+                </div>
+            </div>
+        </footer>
 
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
 </body>
